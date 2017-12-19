@@ -1,3 +1,5 @@
+import Exercise2_0.PersonClass;
+
 import java.util.ArrayList;
 
 public class PersonManager {

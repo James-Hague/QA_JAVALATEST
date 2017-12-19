@@ -1,3 +1,4 @@
+import Exercise2_0.PersonClass;
 
 public class PersonMainClass {
 	

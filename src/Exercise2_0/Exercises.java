@@ -134,7 +134,7 @@ public class Exercises {
 
     public int uniqueSum(int sumNum1, int sumNum2, int sumNum3) {
 
-        // KEEP IT SOMPLE
+        // KEEP IT SIMPLE
 
         if (sumNum1 == sumNum2) { // check
             return sumNum3;
@@ -157,17 +157,21 @@ public class Exercises {
     public boolean tooHot(int temperature, boolean isSummer) {
 
         if (isSummer == true) {
-            if (temperature < 100 && temperature > 60) {
+            if (temperature <= 100 && temperature >= 60) { // if its between 100 and 60
+                return true;
+            } else {
+                return false;
             }
-            if (isSummer == false) {
-                if (temperature < 90 && temperature > 60) {
-
-                    return false;
-                }
-
+        } else {
+            if (temperature <= 90 && temperature >= 60) { // if its between 90 and 60
+                return true;
+            } else {
+                return false;
             }
+
         }
     }
+}
 
 
 
