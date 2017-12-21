@@ -45,12 +45,12 @@ public class BattleshipGame extends  Ship {
         {
             // horizintal
             // multiply buy 5 + 2
-            int col = (int) (Math.random() * 5) - 2;
+            int col = (int) (Math.random() * 5) + 2;
             int row = (int) (Math.random() * board.length);
 
-            for (int i = 0; i < size; i++) ;
+            for (int i = 0; i < size; i++)
             {
-                board[row][col + 1] = "S";
+                board[row][col + i] = "S";
 
             }
 
@@ -60,13 +60,12 @@ public class BattleshipGame extends  Ship {
         {
             // vertical
             // multiply buy 5 + 2
-            int col = (int) (Math.random() * 5) + 2;
-            int row = (int) (Math.random() * board.length);
+            int row = (int) (Math.random() * 5) + 2;
+            int col = (int) (Math.random() * board.length);
 
-            for (int i = 0; i < size; i++) ;
+            for (int i = 0; i < size; i++)
             {
-                board[row][col + 1] = "S";
-
+                board[row + i][col] = "S";
             }
         }
     }
@@ -86,7 +85,7 @@ public class BattleshipGame extends  Ship {
 
 
         createBoard(board);
-        createRandomShip(board, 4);
+        createRandomShip(board, 3);
         showBoard(board);
 
 
