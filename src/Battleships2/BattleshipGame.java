@@ -25,15 +25,28 @@ public class BattleshipGame extends  Ship {
 
 
 
-
+        // 1 create board
         BattleShipMap.createBoard(board);
 
-
+        // add ships
         createRandomShip(board, 3);
         createRandomShip(board, 4);
         createRandomShip(board, 2);
 
+
+        // start stuff
+        int Missiles = 15;
+
+        wlile
+
+
+
+        // call player input
+
+        // delete to hide ships
         BattleShipMap.showBoard(board);
+
+
 
 
 
