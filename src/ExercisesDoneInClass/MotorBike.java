@@ -1,3 +1,4 @@
+package ExercisesDoneInClass;
 
 public class MotorBike extends Vehicle  {
 

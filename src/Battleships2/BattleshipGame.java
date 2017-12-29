@@ -15,12 +15,6 @@ public class BattleshipGame extends  Ship {
 
         Scanner imput = new Scanner(System.in);
 
-        int numOfGuess= 0;
-        boolean isAlive = true;
-
-
-
-
 
 
 
@@ -33,7 +27,18 @@ public class BattleshipGame extends  Ship {
         createRandomShip(board, 4);
         createRandomShip(board, 2);
 
-        BattleShipMap.showBoard(board);
+        int missiles = 3;
+        int hits = 0;
+        while (missiles > 0 && hits < 4)
+        {
+            BattleShipMap.showBoard(board);
+            User.userFire(board,hits,missiles);
+
+        }
+
+
+
+
 
 
 

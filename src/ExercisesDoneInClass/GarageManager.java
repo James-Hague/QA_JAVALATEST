@@ -1,3 +1,5 @@
+package ExercisesDoneInClass;
+
 import java.util.ArrayList;
 
 public class GarageManager {
@@ -22,7 +24,7 @@ public class GarageManager {
 		vehicleArray.add(new Tank(6000, 9, 50, 600));
 		vehicleArray.add(new Tank(7000, 7, 50, 600));
 		
-		// MotorBike
+		// ExercisesDoneInClass.MotorBike
 		vehicleArray.add(new MotorBike(300, 1, 50, 600));
 		vehicleArray.add(new MotorBike(200, 1, 50, 600));
 		vehicleArray.add(new MotorBike(200, 1, 50, 600));

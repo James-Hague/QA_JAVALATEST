@@ -1,3 +1,5 @@
+package ExercisesDoneInClass;
+
 import Exercise2_0.PersonClass;
 
 public class PersonMainClass {
@@ -10,7 +12,7 @@ public class PersonMainClass {
 		PersonClass Per2 = new PersonClass("Dave", "Potter", 65); // Person Information
 		PersonClass Per3 = new PersonClass("Jess", "Pilot", 40); // Person Information
 		PersonClass Per4 = new PersonClass("Charlie", "Blacksmith", 20); // Person Information
-		PM.PersonArray.add(Per1); // PM = PersonManager .PersonArray send to person array .add(Person); add person 
+		PM.PersonArray.add(Per1); // PM = ExercisesDoneInClass.PersonManager .PersonArray send to person array .add(Person); add person
 		PM.PersonArray.add(Per2);
 		PM.PersonArray.add(Per3);
 		PM.PersonArray.add(Per4);

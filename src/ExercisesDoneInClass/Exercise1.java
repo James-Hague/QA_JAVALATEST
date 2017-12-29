@@ -1,3 +1,4 @@
+package ExercisesDoneInClass;
 
 public class Exercise1 {
 
@@ -5,7 +6,7 @@ public class Exercise1 {
 //
 //		// TODO Auto-generated method stub
 //
-//		Exercise1 ex = new Exercise1();
+//		ExercisesDoneInClass.Exercise1 ex = new ExercisesDoneInClass.Exercise1();
 //
 //		ex.ex1(); // method example
 //		ex.ex2();
