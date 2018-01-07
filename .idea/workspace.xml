@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9624a109-c71c-43e8-995f-403005e6507e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Plurasight/Loops.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Plurasight/Learning_Java.java" afterPath="$PROJECT_DIR$/src/Plurasight/Learning_Java.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="Loops.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Plurasight/Loops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="425">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -397,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515352875078</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="plurasight 2 loops done">
+      <created>1515355828059</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515355828059</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -445,7 +450,8 @@
     <MESSAGE value="can hit and miss ships and redraw map" />
     <MESSAGE value="can hit and miss ships and redraw map fix" />
     <MESSAGE value="plurasight update1" />
-    <option name="LAST_COMMIT_MESSAGE" value="plurasight update1" />
+    <MESSAGE value="plurasight 2 loops done" />
+    <option name="LAST_COMMIT_MESSAGE" value="plurasight 2 loops done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -651,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Plurasight/Loops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="425">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
