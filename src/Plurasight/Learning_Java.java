@@ -32,6 +32,12 @@ public class Learning_Java {
 
         System.out.println(result);
 
+        // *********RUN STUFF*********
+
+        Loops.whileLoops(); // run loops
+        Loops.doWhileLoop(); // run do wile loop
+        Loops.forLoop();// run for loop
+
 
 
 
