@@ -26,6 +26,7 @@ public class BattleshipGame extends  Ship {
         createRandomShip(board, 3);
         createRandomShip(board, 4);
         createRandomShip(board, 2);
+        // hide ships method
 
         int missiles = 3;
         int hits = 0;

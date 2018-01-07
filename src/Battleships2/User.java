@@ -32,7 +32,6 @@ public class User extends BattleshipGame {
                     board[row][col] = "@";
                     hits ++;
                     missiles --;
-
         }
         else
         {
