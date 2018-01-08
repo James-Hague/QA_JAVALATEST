@@ -39,9 +39,10 @@ public class Loops {
 
         // for (initialize; condition; update)
          // statement;
+        int count = 1;
 
         for (int iVal = 1; iVal < 100; iVal *= 2) {
-            System.out.println(iVal);
+            System.out.println(" iVal Value " + iVal + "  LoopCount  " + count++); //added a loop count for each loop of the for loop
 
         }
 
