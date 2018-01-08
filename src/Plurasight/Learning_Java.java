@@ -38,6 +38,11 @@ public class Learning_Java {
         Loops.doWhileLoop(); // run do wile loop
         Loops.forLoop();// run for loop
 
+        // Arrays
+
+        Arrays.setTheVals(); // run float array
+       Switch.mySwitch();
+
 
 
 
