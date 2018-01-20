@@ -57,7 +57,7 @@ public class Learning_Java {
         // Arrays
         Arrays.setTheVals(); // run float array
         Arrays.quickArray();
-        System.out.println();
+
 
 
     }
