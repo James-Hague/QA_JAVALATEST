@@ -5,6 +5,7 @@ public class Arrays {
     public static void setTheVals() {
 
     float[] theVals = new float[5]; // new array with 5 float values
+        System.out.println("SET THE VALS");
 
     theVals[0] = 10.0f;
     theVals[1] = 20.0f;
@@ -24,4 +25,11 @@ public class Arrays {
 
 
     }
+
+    public static void quickArray () {
+
+
+
+    }
+
 }
