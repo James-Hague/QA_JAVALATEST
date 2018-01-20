@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9624a109-c71c-43e8-995f-403005e6507e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Plurasight/Arrays.java" afterPath="$PROJECT_DIR$/src/Plurasight/Arrays.java" />
-      <change beforePath="$PROJECT_DIR$/src/Plurasight/Learning_Java.java" afterPath="$PROJECT_DIR$/src/Plurasight/Learning_Java.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -408,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515445786062</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="comp types start simple game">
+      <created>1516475017347</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516475017347</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -487,7 +492,8 @@
     <MESSAGE value="plurasight update1" />
     <MESSAGE value="plurasight 2 loops done" />
     <MESSAGE value="plurasight 2 switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="plurasight 2 switch" />
+    <MESSAGE value="comp types start simple game" />
+    <option name="LAST_COMMIT_MESSAGE" value="comp types start simple game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
