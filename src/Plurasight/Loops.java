@@ -24,13 +24,11 @@ public class Loops {
         String cnt = "Loop Count =";
 
         do {
-            System.out.println("doWhileLoop");
-            System.out.println(cnt + count++); // added to count each loop
+            System.out.println("DO WHILE LOOP");
+            System.out.println(cnt + count++ + "  " + iVal + " * 2 = " );
+            iVal *= 2; // whats happening
             System.out.println(iVal);
-            System.out.println(" * 2 = ");
-            iVal *= 2;
-            System.out.println(iVal);
-        } while (iVal < 100); // do this wile iVal < 100
+        } while (iVal < 100); // do this wile iVal < 100 (condition at the end)
 
     }
 
