@@ -25,7 +25,7 @@ public class Loops {
 
         do {
             System.out.println("DO WHILE LOOP");
-            System.out.println(cnt + count++ + "  " + iVal + " * 2 = " );
+            System.out.println(cnt + count++ + "  " + iVal + " * 2 = ");
             iVal *= 2; // whats happening
             System.out.println(iVal);
         } while (iVal < 100); // do this wile iVal < 100 (condition at the end)
@@ -33,21 +33,37 @@ public class Loops {
     }
 
 
+    public static void forEachLoop() {
+
+        float[] theVals = {10.0f, 20.0f, 15.0f};
+
+
+        float sum = 0.0f;
+        for (float currentVal : theVals) {
+            System.out.println(currentVal + "  currentVal");
+            sum += currentVal;
+            System.out.println(sum);
+
+        }
+
+        System.out.println(sum + "sum");
+
+
+    }
+
+
+
     public static void forLoop() {
 
         // for (initialize; condition; update)
-         // statement;
+        // statement;
         int count = 1;
 
         for (int iVal = 1; iVal < 100; iVal *= 2) {
             System.out.println(" iVal Value " + iVal + "  LoopCount  " + count++); //added a loop count for each loop of the for loop
 
         }
-
-
-
     }
-
 
 }
 

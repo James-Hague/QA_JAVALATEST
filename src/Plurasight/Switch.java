@@ -1,6 +1,15 @@
 package Plurasight;
 
 public class Switch {
+    /*
+    switch(test Value)
+    case valie1:
+    statments
+    case valie1:
+    statments
+    case valie1:
+    statments */
+
 
     public static void mySwitch()  {
 

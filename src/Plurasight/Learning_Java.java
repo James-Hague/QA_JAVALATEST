@@ -27,6 +27,9 @@ public class Learning_Java {
                     results[i] = leftVals[i] != 0.0d ? rightVals[i] / leftVals[i] : 0.0d;
                     break;
 
+                // : checks weather the expression is true or false and assigns the true value to the variable
+                // eg variable x = (expression) ? value if true : value if false
+
                 // slow way
                 // if (val2 != 0.0d)
                 //   result = val1 / val2;
@@ -52,12 +55,11 @@ public class Learning_Java {
         Loops.whileLoops(); // run loops
         Loops.doWhileLoop(); // run do wile loop
         Loops.forLoop();// run for loop
-        // Switch
-        Switch.mySwitch();
         // Arrays
         Arrays.setTheVals(); // run float array
-        Arrays.quickArray();
-
+        Loops.forEachLoop();
+        // Switch
+        Switch.mySwitch();
 
 
     }

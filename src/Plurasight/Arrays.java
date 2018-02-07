@@ -15,7 +15,7 @@ public class Arrays {
 
 
         float sum = 0.0f;
-
+        // loop through until "i" is the length of the array
     for (int i = 0; i < theVals.length; i ++) // loop through the vals ++1
 
         sum += theVals[i];
@@ -26,10 +26,5 @@ public class Arrays {
 
     }
 
-    public static void quickArray () {
-
-
-
-    }
 
 }
